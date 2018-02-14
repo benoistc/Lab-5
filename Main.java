@@ -1,3 +1,5 @@
+//comment for lab 5
+//Chase Benoist
 import java.util.*;
 import java.lang.Math;
 public class Main {
