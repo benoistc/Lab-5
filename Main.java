@@ -14,6 +14,7 @@ public class Main {
             char currentChar;
             currentChar = hexNum.charAt(counter);
             switch (currentChar)
+            //switch statement for all possible hexadecimal symbols. Default case covers 0 and non-hex symbols.
             {
                 case '1':
                     decimalValue += (Math.pow(16, (length - 1 - counter)));
